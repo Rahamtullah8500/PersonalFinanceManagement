@@ -4,7 +4,7 @@ This project is a financial dashboard built using ReactJS, Redux, Recharts, Boot
 ## Setup and Running the Application
 Follow these steps to set up and run the application locally:
 
-1. Clone the repository: git clone https://github.com/your-username/financial-dashboard.git
+1. Clone the repository: https://github.com/Rahamtullah8500/PersonalFinanceManagement.git
 
 2. Navigate to the project directory: cd financial-dashboard
 
