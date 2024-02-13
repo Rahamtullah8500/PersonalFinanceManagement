@@ -1,0 +1,7 @@
+.responsive-container{
+    /* background-color: rgb(214, 229, 242); */
+    background-color: #09092d;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px #cdcdcd;
+    padding: 10px;
+}

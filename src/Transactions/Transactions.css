@@ -1,0 +1,20 @@
+.transacitons-container{
+    height: 100vh;
+    color: #000;
+    margin-top: 20px;
+}
+
+.transacitons-container thead{
+    background-color: #09092d !important;
+}
+
+.table-container{
+    box-shadow: 2px 4px 4px #cdcdcd;
+    border-radius: 4px;
+}
+
+.table-header th{
+    background-color: #09092d;
+    color: #fff;
+    font-weight: 300;
+}

@@ -1,0 +1,30 @@
+.common-card-container{
+    background-color: #edf0fa;
+    border-radius: 3px;
+    padding: 15px;
+    border-bottom: 4px  solid #09092d;
+    box-shadow: 1px 2px 4px  rgba(0,0,0,.1);
+
+    &:hover{
+        box-shadow: 2px 4px 4px #cdcdcd;
+    }
+}
+
+.common-card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.common-card-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.common-card-icon{
+    font-size: 24px;
+}
+
+.common-card-amount{
+    font-size: 24px;
+    font-weight: 600;
+}
