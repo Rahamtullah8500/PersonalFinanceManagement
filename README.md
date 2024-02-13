@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# PersonalFinanceApp
+This project is a financial dashboard built using ReactJS, Redux, Recharts, Bootstrap, React-Icons, etc. It allows users to visualize monthly income, expenses, debt, and savings through pie, bar, and line charts. Users can also compare data and manage recent transactions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup and Running the Application
+Follow these steps to set up and run the application locally:
 
-## Available Scripts
+1. Clone the repository: git clone https://github.com/your-username/financial-dashboard.git
 
-In the project directory, you can run:
+2. Navigate to the project directory: cd financial-dashboard
 
-### `npm start`
+3. Install dependencies: npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Start the development server: npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-### `npm test`
+Now you should have the financial dashboard application up and running locally on your machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Features:
+1.Visualize monthly financial data using pie, bar, and line charts
+2.Compare financial data
+3.Manage recent transactions
+4.Add new transactions
+5.Filter transactions based on search item
+6.Sort transactions based on category
 
-### `npm run build`
+Technologies Used:
+ReactJS
+Redux
+Recharts
+Bootstrap
+React-Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Basic Architecture:
+App Component
+  Home Component
+    Header Component
+    SideBar Component
+    Dashboard Component
+      Charts Component
+      Pie Chart Component
+      Bar Chart Component
+      Line Chart Component
+      Transactions Component
